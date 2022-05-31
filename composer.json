@@ -1,0 +1,15 @@
+{
+    "name": "prepe/custom-stripe-payment_plugin",
+    "description": "Custom Stripe Payment Plugin",
+    "type": "project",
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {
+        "stripe/stripe-php": "^7.124"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inc\\" : "./inc"
+        }
+    }
+}
